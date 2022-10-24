@@ -153,5 +153,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable zoro uzi-miner
 sudo systemctl restart zoro uzi-miner
 ```
+```
+journalctl -u zoro -u uzi-miner -f -o cat
+```
 
 
